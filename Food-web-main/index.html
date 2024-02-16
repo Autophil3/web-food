@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Besnik</title>
+    <!-- Font awesome Icon Library -->
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <!-- Main Css File -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <style>
+      body {
+        /* background-image: url(assets/images/bg-2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; */
+        background-color: #fff000;
+      }
+
+      .about {
+        margin-bottom: 300px;
+        /* background-color: #232323;
+        color: #88bc00 !important; */
+      }
+    </style>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="117">
+    <!-- Navbar Section Start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container">
+        <a class="navbar-brand logo" href="#">pantok</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars menu-btn"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link mt-4 mt-lg-0 mb-2 mb-md-0" href="#home"
+                >beranda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2 mb-md-0" href="#about">tentang</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mb-2 mb-md-0" href="#menu">menu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Section End -->
+
+    <!-- Home Section Start -->
+    <section class="home text-center p-3 mb-2" id="home">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-6">
+            <div class="home__info text-lg-start mb-5 mb-lg-0">
+              <h1>
+                ketan susu
+                <br />
+                pantok
+              </h1>
+              <p class="lh-lg my-4 fs-2">
+                Pemberi rasa manis dari hidupmu yang pahit
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="home__image">
+              <img class="img-fluid" src="./assets/images/home-.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section End -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h1 class="main-heading fs-1 fw-bold">tentang</h1>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <div class="image mb-5 mb-md-0">
+              <img class="img-fluid" src="./assets/images/about.png" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="content">
+              <span>jang salah pilih tansu-mu!</span>
+              <h2 class="my-3 mb-5">apa yang membuat ketan susu ini enak!</h2>
+              <p class="mb-4">
+                di buat dengan ketan pilihan yang baik untuk kesehatan dan
+                dengan toping yang beraneka ragam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu Section Start  -->
+    <section class="menu" id="menu">
+      <div class="container">
+        <div class="row">
+          <h1 class="main-heading">menu</h1>
+        </div>
+        <div class="menu-content">
+          <div class="d-flex align-items-center flex-column flex-lg-row">
+            <div
+              class="nav flex-row flex-lg-column align-items-center nav-pills me-3"
+              id="v-pills-tab"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <button
+                class="nav-link active me-3 me-lg-0 mb-4 mb-lg-0"
+                id="v-pills-home-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-home"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-home"
+                aria-selected="true"
+              >
+                menu-1
+              </button>
+              <button
+                class="nav-link me-3 me-lg-0 mb-4 mb-lg-0"
+                id="v-pills-profile-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-profile"
+                aria-selected="false"
+              >
+                menu-2
+              </button>
+              <button
+                class="nav-link me-3 me-3 me-lg-0 mb-4 mb-lg-0"
+                id="v-pills-messages-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-messages"
+                aria-selected="false"
+              >
+                menu-3
+              </button>
+              <button
+                class="nav-link me-3 me-lg-0 mb-4 mb-lg-0"
+                id="v-pills-settings-tab"
+                data-bs-toggle="pill"
+                data-bs-target="#v-pills-settings"
+                type="button"
+                role="tab"
+                aria-controls="v-pills-settings"
+                aria-selected="false"
+              >
+                menu-4
+              </button>
+            </div>
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-home"
+                role="tabpanel"
+                aria-labelledby="v-pills-home-tab"
+              >
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <div>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/food menu/coklat.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4>Coklat</h4>
+                      <p>ketan susu dengan toping coklat selai.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.7
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/meses.png"
+                        alt=""
+                      />
+                      <h4>meses</h4>
+                      <p>ketan susu dengan toping mesis seres.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.5
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/keju.jpg"
+                        alt=""
+                      />
+                      <h4>keju</h4>
+                      <p>ketan susu dengan toping parutan keju.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 7000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.7
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-profile"
+                role="tabpanel"
+                aria-labelledby="v-pills-profile-tab"
+              >
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <div>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/food menu/oreo.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4>Oreo</h4>
+                      <p>ketan susu dengan toping oreo bubuk.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.8
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/green tea.png"
+                        alt=""
+                      />
+                      <h4>green tea</h4>
+                      <p>ketan susu dengan toping selai rasa green tea</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.9
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/taro.png"
+                        alt=""
+                      />
+                      <h4>taro</h4>
+                      <p>ketan susu dengan toping selai rasa taro.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.7
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-messages"
+                role="tabpanel"
+                aria-labelledby="v-pills-messages-tab"
+              >
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <div>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/food menu/tiramisu.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4>tiramisu</h4>
+                      <p>ketan susu dengan toping selai rasa tiramisu.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.6
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/kacang.jpg"
+                        alt=""
+                      />
+                      <h4>kacang</h4>
+                      <p>ketan susu dengan toping taburan kacang.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 7000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.7
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/blue bery.png"
+                        alt=""
+                      />
+                      <h4>bluebery</h4>
+                      <p>ketan susu dengan toping selai rasa bluebery.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.5
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-settings"
+                role="tabpanel"
+                aria-labelledby="v-pills-settings-tab"
+              >
+                <div class="row">
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <div>
+                        <img
+                          class="img-fluid"
+                          src="./assets/images/food menu/abon.png"
+                          alt=""
+                        />
+                      </div>
+                      <h4>abom</h4>
+                      <p>ketan tanpa susu dengan toping abon.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 7000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.9
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/kedelai.png"
+                        alt=""
+                      />
+                      <h4>kedelai</h4>
+                      <p>ketan tanpa susu dengan toping bubuk kedelai.</p>
+                      <div class="pricing">
+                        <span class="price">rp. 6000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.5
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="product text-center">
+                      <img
+                        class="img-fluid"
+                        src="./assets/images/food menu/kelapa.png"
+                        alt=""
+                      />
+                      <h4>kelapa</h4>
+                      <p>
+                        ketan tanpa susu dengan toping kelapa dan gula merah.
+                      </p>
+                      <div class="pricing">
+                        <span class="price">rp. 5000</span>
+                        <div class="start">
+                          <i class="fa-solid fa-star"></i>
+                          4.6
+                        </div>
+                      </div>
+                      <div class="basket">
+                        <i class="fa fa-basket-shopping"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu Section End  -->
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="footer-top border-bottom pb-3">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <div class="left">
+                <a href="#" class="logo mb-3">Pantok</a>
+                <p class="my-4">makan lah makanan yang halal dan sehat.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right mt-5 mt-lg-0">
+                <div class="row justify-content-between">
+                  <div class="col-sm-6 col-md-4 mb-3 mb-lg-0">
+                    <ul class="d-flex flex-column">
+                      <h5 class="mb-4">information</h5>
+                      <a href="#">whatsapp : +62 813-7656-3939 </a>
+                      <a href="#">Insta : ketan_susupantokpwrjo </a>
+                      <a href="#">Tiktok : ketansusupantok </a>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-4 mb-3 mb-lg-0">
+                    <ul class="d-flex flex-column">
+                      <h5 class="mb-4">categories</h5>
+                      <a href="#">fast food</a>
+                      <a href="#">food products</a>
+                      <a href="#">street food</a>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul class="d-flex flex-column">
+                      <h5 class="mb-4">alamat</h5>
+                      <a
+                        href="https://maps.app.goo.gl/TMqbe1Pa59QmNecy9"
+                        target="_blank"
+                        >Perempatan tugu WR. soepratman, Jln A.Yani no.78
+                        Baledoo, puworejo</a
+                      >
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom text-center py-3">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer-bottom__copyright">
+              <h2>
+                Copyright &copy; <span class="year">2024</span>
+                <span class="name">SMA TI HSI-IDN</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Scroll Top Button Start -->
+    <div class="scroll-top">
+      <a href="#">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    </div>
+    <!-- Scroll Top Button End -->
+
+    <!-- Bootstrap v5 Js File -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+    <!-- Main Js File -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
